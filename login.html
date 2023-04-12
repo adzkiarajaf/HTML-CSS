@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="https://neuronworks.co.id">
+            <img src="nw-horizontal.png" alt="logo1" class="logo1">
+        </a>
+    </nav>
+    <div class="Recruitment">
+    <form class="rec-form">
+        <div class="formrecruitment">
+            <div class="logo2">
+                <img src="logomark-sign.png" alt="Neuron 3.0" class="Neuron-3">
+            </div>
+        </div>
+        <div class="form-desc">
+            <h3 class="judul-form">Form Rekrutasi</h3>
+            <p class="caption">Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>
+        </div>
+        
+        <input type="hidden">
+        <div class="form-nama">
+            <label for="fullname" class="active">Fullname<span class="penting">*</span></label>
+            <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Masukkan nama" required="">
+        </div>
+        
+        <div class="form-email">
+            <label for="email" class="active">Email<span class="penting">*</span></label>
+            <input type="text" class="form-control" name="email" id="email" placeholder="Masukkan email" required="">
+        </div>
+        
+        <div class="form-phone">
+            <label for="phone" class="active">Phone Number<span class="penting">*</span></label>
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Masukkan nomor telpon" required="">
+        </div>
+        
+        <div class="form-vacancy">
+            <label for="vacancy">Vacancy<span class="penting">*</span></label>
+            <select class="form-control" name="lowongan" id="lowongan">
+                <option value="" disabled="" selected="">- Pilih Lowongan -</option>
+                        <option>DATABASE DEVELOPER</option>
+            </select>
+        </div>
+        
+        <div class="form-posisi">
+            <label for="position">Position <span class="penting">*</span></label>
+            <select class="form-control" required="" name="posisi" id="posisi">
+                <option value="" disabled="" selected="">- Pilih Posisi -</option>
+                <option value="contoh1">Contoh Posisi #1</option>
+                <option value="contoh2">Contoh Posisi #2</option>
+                <option value="contoh3">Contoh Posisi #3</option>
+            </select>
+        </div>
+        
+        <div id="loginAlert"></div>
+            <div class="form-group">
+                <button type="submit" id="loginBtn" class="btn btn-primary waves-effect waves-light">Kirim</button>
+            </div>
+            <div class="social-media">
+                  <a class="sosmed" href="https://instagram.com/neuronworks"><i class="fab fa-instagram"></i></a></li>
+                  <a class="sosmed" href="https://www.youtube.com/@NeuronworksIndonesia"><i class="fab fa-youtube"></i></a></li>
+                  <a class="sosmed" href="https://twitter.com/neuronworks"><i class="fab fa-twitter"></i></a></li>
+                  <a class="sosmed" href="https://www.facebook.com/neuronworks /"><i class="fab fa-facebook-f"></i></a></li>
+                  <a class="textneuron" href="https://www.neuronworks.co.id">www.neuronworks.co.id</a>
+              </div>         
+    </form>
+    
+    </div>
+</body>
+</html>

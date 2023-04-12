@@ -1,0 +1,150 @@
+nav { 
+    background-color: white;
+    height: 40px;
+    padding: 10px 5px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.logo1 {
+    width: 10%;
+}
+
+.Neuron-3 {
+    width: 7rem;
+}
+
+.penting {
+    color: red;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h3 { 
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.rec-form {
+    width: 480px;
+    background: whitesmoke;
+    float: right;
+    padding: 30px 10px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.form-control {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: black;
+    border-radius: 5px;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+button[type="submit"] {
+    background-color: rgb(48, 128, 214);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+.social-media {
+    margin-top: 10%;
+    position: center;
+    top: 95%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.sosmed { 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: black;
+}
+
+.sosmed i{
+    transition: 0.2s linear;
+    font-size: 30px;
+    line-height: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.sosmed::hover i{
+    transform: scale(1.3);
+    color: black;
+}
+
+.sosmed::before{
+    content:"";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+    background: #3498db;
+}
+
+.sosmed:hover:before{
+    left: -10%;
+    top : -10%;
+    animation: aaa 0.7s 1;
+}
+
+.textneuron {
+    color: black;
+    position: absolute;
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    size: 10px;
+}
